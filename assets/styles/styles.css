@@ -1,0 +1,99 @@
+main {
+    display: flex;
+   /*  height: 80vh; */
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(129, 150, 197);
+
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+main section {
+    width: 20%;
+    padding: 10px;
+}
+
+
+body{
+  background-color: rgb(192, 241, 241);
+}
+p, a, h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    padding: 10px;
+}
+
+.navigation {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(8, 82, 141);;
+    font-weight: bold;
+    padding: 10px 5% 10px 5%;
+  }
+  
+  .navigation h1 {
+    color: rgb(227, 228, 252);
+    font-size: 1.8rem;
+  }
+  
+  .navigation ul li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+  
+  .navigation ul li a {
+    text-decoration: none;
+    color: rgb(190, 190, 190);
+    font-size: 1.2rem;
+  }
+  
+  .navigation ul li a:hover {
+    color: rgb(142, 252, 132);
+  }
+
+  .fa-brands {
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .fa-facebook {
+    background-image: url("../icons/facebook-svgrepo-com.svg");
+  }
+  
+  .fa-square-instagram {
+    background-image: url("/assets/icons/instagram-round-svgrepo-com.svg");
+  }
+  
+  .fa-square-twitter {
+    background-image: url("/assets/icons/twitter-round-svgrepo-com.svg");
+  }
+  
+  .fa-youtube {
+    background-image: url("/assets/icons/youtube-round-svgrepo-com.svg");
+  }
+  
+.footer {
+  padding: 10px;
+  background-color: rgb(66, 207, 109);
+  display: flex;
+  justify-content: center;
+}
+
+.footer a {
+  display: inline-block;
+  margin: 0 7px 0 7px;
+}
+
+.footer a i {
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.footer a i:hover {
+  box-shadow: 0px 0px 15px rgb(9, 94, 1);
+}
